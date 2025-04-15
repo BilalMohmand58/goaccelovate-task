@@ -127,12 +127,7 @@ The application is deployed at [https://todo-app-example.vercel.app](https://tod
 
 ![Edit Todo Page](/public/img/oauth.png)
 
-## Database Dump
 
-A PostgreSQL database dump file is available in the `database` directory. To restore it:
-
-```bash
-psql -U username -d todo_app < database/dump.sql
 ```
 
 ## License
