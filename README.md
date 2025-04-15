@@ -32,14 +32,9 @@ A fully functional and responsive Todo web application with authentication, data
 
 ### Installation Steps
 
-1. Clone the repository:
 
-```bash
-git clone https://github.com/your-username/todo-app.git
-cd todo-app
-```
 
-2. Install dependencies:
+1. Install dependencies:
 
 ```bash
 npm install
@@ -47,7 +42,7 @@ npm install
 yarn install
 ```
 
-3. Set up environment variables:
+2. Set up environment variables:
 
 Create a `.env.local` file in the root directory and add the following variables:
 
@@ -64,13 +59,13 @@ GOOGLE_CLIENT_ID="your_google_client_id"
 GOOGLE_CLIENT_SECRET="your_google_client_secret"
 ```
 
-4. Initialize the database:
+3. Initialize the database:
 
 ```bash
 npx prisma db push
 ```
 
-5. Run the development server:
+4. Run the development server:
 
 ```bash
 npm run dev
@@ -78,7 +73,7 @@ npm run dev
 yarn dev
 ```
 
-6. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
 ## Testing
 
@@ -99,7 +94,7 @@ yarn test
 
 ## Deployment
 
-The application is deployed at [https://todo-app-example.vercel.app](https://todo-app-example.vercel.app)
+The application is deployed at [goaccelovate-task.vercel.app](goaccelovate-task.vercel.app)
 
 ## Screenshots
 
