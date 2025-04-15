@@ -1,4 +1,3 @@
-// app/dashboard/page.js
 import { requireAuth } from "@/lib/auth";
 import TodoList from "@/components/TodoList";
 import AddTodo from "@/components/AddTodo";

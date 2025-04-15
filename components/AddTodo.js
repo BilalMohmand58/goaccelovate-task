@@ -1,4 +1,4 @@
-// components/AddTodo.js
+
 "use client";
 
 import { useState } from "react";
@@ -33,7 +33,9 @@ export default function AddTodo() {
       }
 
       setContent("");
-      router.refresh();
+
+      // Dispatch the "todoAdded" event after a successful submission
+      window.dispatchEvent(new CustomEvent("todoAdded"));
     } catch (error) {
       console.error("ADD TODO ERROR:", error);
     } finally {

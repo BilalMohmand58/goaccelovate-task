@@ -1,4 +1,3 @@
-// app/dashboard/layout.js
 import { requireAuth } from "@/lib/auth";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";

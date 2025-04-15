@@ -1,4 +1,3 @@
-// app/api/todos/route.js
 import { getAuthSession } from "@/lib/auth";
 import { PrismaClient } from "@prisma/client";
 import { NextResponse } from "next/server";

@@ -1,4 +1,3 @@
-// components/TodoList.js
 "use client";
 
 import { useState, useEffect } from "react";
@@ -15,7 +14,17 @@ export default function TodoList() {
   const router = useRouter();
 
   useEffect(() => {
+    // Fetch todos on mount
     fetchTodos();
+
+    // Listen for the custom "todoAdded" event to trigger a refetch
+    const handleTodoAdded = () => fetchTodos();
+    window.addEventListener("todoAdded", handleTodoAdded);
+
+    // Cleanup the event listener when the component unmounts
+    return () => {
+      window.removeEventListener("todoAdded", handleTodoAdded);
+    };
   }, []);
 
   const fetchTodos = async () => {

@@ -1,4 +1,3 @@
-// app/page.js
 import { getAuthSession } from "@/lib/auth";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";

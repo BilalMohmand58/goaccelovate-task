@@ -97,14 +97,6 @@ yarn test
 - **Task Update**: O(1) - Updating a task by ID is a direct database operation
 - **Task List Retrieval**: O(n) - Where n is the number of tasks belonging to the user
 
-## Assumptions
-
-- Each user has their own separate list of tasks
-- Authentication tokens are stored securely in HttpOnly cookies
-- The application is intended for personal use with a reasonable number of tasks per user
-- All API endpoints validate user authentication before performing any database operations
-- Form inputs are validated on both client and server sides
-
 ## Deployment
 
 The application is deployed at [https://todo-app-example.vercel.app](https://todo-app-example.vercel.app)
@@ -113,23 +105,27 @@ The application is deployed at [https://todo-app-example.vercel.app](https://tod
 
 ### Home Page
 
-![Home Page](https://via.placeholder.com/800x450)
+![Home Page](/public/img/home.png)
 
 ### Sign In Page
 
-![Sign In Page](https://via.placeholder.com/800x450)
+![Sign In Page](/public/img/signin.png)
 
 ### Register Page
 
-![Register Page](https://via.placeholder.com/800x450)
+![Register Page](/public/img/register.png)
 
 ### Dashboard
 
-![Dashboard](https://via.placeholder.com/800x450)
+![Dashboard](/public/img/dashboard.png)
 
 ### Edit Todo Page
 
-![Edit Todo Page](https://via.placeholder.com/800x450)
+![Edit Todo Page](/public/img/edit.png)
+
+### Oauth Page
+
+![Edit Todo Page](/public/img/oauth.png)
 
 ## Database Dump
 
